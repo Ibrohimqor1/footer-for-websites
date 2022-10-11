@@ -1,0 +1,103 @@
+/* li {
+    text-decoration: none;
+}
+.footer__links > ul > li > a {
+    display: inline-block;
+    color: #76431f;
+    line-height: 1;
+    cursor: pointer;
+}
+.link-hover-solid a:after {
+    background-color: #ff6000;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz--transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+}
+.link-hover-solid a:hover:after,
+.link-hover-solid a:focus:after {
+    width: 100%;
+} */
+
+/* тестовые значения */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+p {
+  font-family: ProximaNova;
+
+  font-weight: 300;
+  color: #fff;
+}
+
+/* стили футера */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #000;
+
+  height: 360px;
+  width: 100%;
+
+  padding: 50px 0 0 0;
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.footer__links {
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.foooter__links-separator {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.foooter__links-block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer__links__under-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: rgb(75, 75, 75);
+}
+
+.footer__links__under-block p{
+    color: rgb(143, 143, 143);
+}
+
+.footer__links__icons{
+    display: flex;
+    gap: 20px;
+}
+
+@font-face {
+  font-family: "ProximaNova";
+  src: url("ProximaNova-Light.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
